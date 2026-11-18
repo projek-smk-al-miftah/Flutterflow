@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Web Area</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hujan Bintang -->
+    <div class="stars"></div>
+    <div class="stars stars2"></div>
+    <div class="stars stars3"></div>
+
+    <!-- Navigasi -->
+    <header>
+        <div class="logo">WEB<span>AREA</span></div>
+        <a href="#home" class="nav-btn">HOME</a>
+    </header>
+
+    <!-- Halaman Utama -->
+    <main id="home">
+        <section class="hero">
+
+            <div class="tag">✦ WELCOME TO MY WEBSITE ✦</div>
+
+            <h1>
+                WELCOME TO
+                <span>WEB AREA</span>
+            </h1>
+
+            <p class="subtitle">
+                Selamat Datang Di Website Kami
+            </p>
+
+            <!-- Ilustrasi TKJ -->
+            <div class="circle">
+                <div class="glow"></div>
+                <div class="tech-icon">🌐</div>
+                <div class="orbit orbit1"></div>
+                <div class="orbit orbit2"></div>
+            </div>
+
+            <!-- Kata Motivasi -->
+            <div class="motivation">
+                <h2>JANGAN MENYERAH</h2>
+                <h3>SEBELUM KAMU BERJUANG</h3>
+                <p>
+                    Setiap perjuangan memiliki hasil.
+                    Jangan takut gagal, karena kesuksesan
+                    dimulai dari keberanian untuk mencoba.
+                </p>
+            </div>
+
+            <!-- Tombol -->
+            <div class="buttons">
+                <a href="#login" class="btn next">
+                    NEXT <span>➜</span>
+                </a>
+
+                <a href="#login" class="btn login">
+                    LOGIN AKUN
+                </a>
+            </div>
+
+            <div class="footer-text">
+                © 2026 WEB AREA | NEVER GIVE UP
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Login -->
+    <section id="login" class="login-section">
+        <div class="login-card">
+            <h2>WELCOME BACK</h2>
+            <p>Silakan masuk ke akun Anda</p>
+
+            <form onsubmit="event.preventDefault(); alert('Silakan hubungkan form ini dengan sistem login Anda.');">
+                <input type="email" placeholder="Masukkan Email" required>
+                <input type="password" placeholder="Masukkan Password" required>
+                <button type="submit">SIGN IN ➜</button>
+            </form>
+
+            <a href="#home" class="back">← Kembali ke Beranda</a>
+        </div>
+    </section>
+
+</body>
+</html>
+
